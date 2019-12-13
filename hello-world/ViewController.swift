@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        AF.request("https://httpbin.org/get").response { response in
-            debugPrint(response)
+        Alamofire.request("https://httpbin.org/get").responseJSON { response in
+            debugPrint("Response: \(response)")
         }
     }
 
