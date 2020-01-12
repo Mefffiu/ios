@@ -7,6 +7,8 @@ target 'hello-world' do
 
   # Pods for hello-world
 	pod 'Alamofire', '~> 4.4.0-rc.3'
+    pod 'SwiftyJSON'
+	pod 'Charts'
   target 'hello-worldTests' do
     inherit! :search_paths
     # Pods for testing

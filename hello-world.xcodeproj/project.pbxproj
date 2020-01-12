@@ -3,11 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		01A1812007EAEE280D4DE411 /* Pods_hello_worldUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D757CE6315F9F0176C7DAAA /* Pods_hello_worldUITests.framework */; };
+		6ECCD1F423CA148400281A9A /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCD1F323CA148400281A9A /* Podfile */; };
+		6ECCD1F923CA4A7000281A9A /* SymbolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCD1F823CA4A7000281A9A /* SymbolModel.swift */; };
+		6ECCD1FE23CA61FC00281A9A /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCD1FC23CA61FC00281A9A /* StockViewController.swift */; };
+		6ECCD1FF23CA61FC00281A9A /* StockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCD1FD23CA61FC00281A9A /* StockViewController.xib */; };
+		6ECCD20423CA655B00281A9A /* StockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCD20223CA655B00281A9A /* StockTableViewCell.swift */; };
+		6ECCD20523CA655B00281A9A /* StockTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCD20323CA655B00281A9A /* StockTableViewCell.xib */; };
+		6ECCD20E23CA8A7800281A9A /* PriceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCD20D23CA8A7800281A9A /* PriceModel.swift */; };
+		6ECCD21123CA8CF600281A9A /* StockDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECCD20F23CA8CF600281A9A /* StockDetailsViewController.swift */; };
+		6ECCD21223CA8CF600281A9A /* StockDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ECCD21023CA8CF600281A9A /* StockDetailsViewController.xib */; };
 		ACD143E6239A633C00073CEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD143E5239A633C00073CEB /* AppDelegate.swift */; };
 		ACD143E8239A633C00073CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD143E7239A633C00073CEB /* ViewController.swift */; };
 		ACD143EB239A633C00073CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD143E9239A633C00073CEB /* Main.storyboard */; };
@@ -44,6 +53,15 @@
 		621AE0E49AA0AF76F77734B7 /* Pods-hello-worldTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-worldTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hello-worldTests/Pods-hello-worldTests.release.xcconfig"; sourceTree = "<group>"; };
 		663D110ECCFE86F87AE78659 /* Pods-hello-worldUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-worldUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hello-worldUITests/Pods-hello-worldUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6CBAC7180A2143ACBE7D6BD4 /* Pods-hello-world.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hello-world.release.xcconfig"; path = "Pods/Target Support Files/Pods-hello-world/Pods-hello-world.release.xcconfig"; sourceTree = "<group>"; };
+		6ECCD1F323CA148400281A9A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6ECCD1F823CA4A7000281A9A /* SymbolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModel.swift; sourceTree = "<group>"; };
+		6ECCD1FC23CA61FC00281A9A /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
+		6ECCD1FD23CA61FC00281A9A /* StockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockViewController.xib; sourceTree = "<group>"; };
+		6ECCD20223CA655B00281A9A /* StockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTableViewCell.swift; sourceTree = "<group>"; };
+		6ECCD20323CA655B00281A9A /* StockTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockTableViewCell.xib; sourceTree = "<group>"; };
+		6ECCD20D23CA8A7800281A9A /* PriceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceModel.swift; sourceTree = "<group>"; };
+		6ECCD20F23CA8CF600281A9A /* StockDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsViewController.swift; sourceTree = "<group>"; };
+		6ECCD21023CA8CF600281A9A /* StockDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StockDetailsViewController.xib; sourceTree = "<group>"; };
 		9D757CE6315F9F0176C7DAAA /* Pods_hello_worldUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hello_worldUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD143E2239A633C00073CEB /* hello-world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-world.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD143E5239A633C00073CEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +120,37 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6ECCD1F723CA4A2900281A9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCD1F823CA4A7000281A9A /* SymbolModel.swift */,
+				6ECCD20D23CA8A7800281A9A /* PriceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6ECCD20023CA64C800281A9A /* Stock */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCD20123CA650400281A9A /* Cells */,
+				6ECCD1F723CA4A2900281A9A /* Model */,
+				6ECCD1FC23CA61FC00281A9A /* StockViewController.swift */,
+				6ECCD1FD23CA61FC00281A9A /* StockViewController.xib */,
+				6ECCD20F23CA8CF600281A9A /* StockDetailsViewController.swift */,
+				6ECCD21023CA8CF600281A9A /* StockDetailsViewController.xib */,
+			);
+			path = Stock;
+			sourceTree = "<group>";
+		};
+		6ECCD20123CA650400281A9A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6ECCD20223CA655B00281A9A /* StockTableViewCell.swift */,
+				6ECCD20323CA655B00281A9A /* StockTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		ACD143D9239A633B00073CEB = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +176,8 @@
 		ACD143E4239A633C00073CEB /* hello-world */ = {
 			isa = PBXGroup;
 			children = (
+				6ECCD20023CA64C800281A9A /* Stock */,
+				6ECCD1F323CA148400281A9A /* Podfile */,
 				ACD143E5239A633C00073CEB /* AppDelegate.swift */,
 				ACD143E7239A633C00073CEB /* ViewController.swift */,
 				ACD143E9239A633C00073CEB /* Main.storyboard */,
@@ -275,7 +326,11 @@
 			files = (
 				ACD143F0239A633F00073CEB /* LaunchScreen.storyboard in Resources */,
 				ACD143ED239A633F00073CEB /* Assets.xcassets in Resources */,
+				6ECCD1F423CA148400281A9A /* Podfile in Resources */,
 				ACD143EB239A633C00073CEB /* Main.storyboard in Resources */,
+				6ECCD20523CA655B00281A9A /* StockTableViewCell.xib in Resources */,
+				6ECCD21223CA8CF600281A9A /* StockDetailsViewController.xib in Resources */,
+				6ECCD1FF23CA61FC00281A9A /* StockViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,20 +379,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-hello-world/Pods-hello-world-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-hello-world/Pods-hello-world-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-hello-world/Pods-hello-world-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hello-world/Pods-hello-world-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hello-world/Pods-hello-world-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		62CB3EF13F481D55B7D688F6 /* [CP] Check Pods Manifest.lock */ = {
@@ -392,7 +442,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACD143E8239A633C00073CEB /* ViewController.swift in Sources */,
+				6ECCD20E23CA8A7800281A9A /* PriceModel.swift in Sources */,
+				6ECCD1F923CA4A7000281A9A /* SymbolModel.swift in Sources */,
 				ACD143E6239A633C00073CEB /* AppDelegate.swift in Sources */,
+				6ECCD21123CA8CF600281A9A /* StockDetailsViewController.swift in Sources */,
+				6ECCD20423CA655B00281A9A /* StockTableViewCell.swift in Sources */,
+				6ECCD1FE23CA61FC00281A9A /* StockViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
